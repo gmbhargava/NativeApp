@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: automation.suite.RunWIPCukes
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 182.011 sec <<< FAILURE! - in automation.suite.RunWIPCukes
+Then Our purpos page should open(Scenario: To verify HSBC Our purpose page is loading sucessfully)  Time elapsed: 0.018 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Our purpos[e]> but was:<Our purpos[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at automation.stepdefs.HSBCWebStep.display_online_banking_page(HSBCWebStep.java:69)
+	at ?.Then Our purpos page should open(HSBCWeb1.feature:12)
+
+Scenario: To verify HSBC Our purpose page is loading sucessfully  Time elapsed: 0.036 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Our purpos[e]> but was:<Our purpos[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at automation.stepdefs.HSBCWebStep.display_online_banking_page(HSBCWebStep.java:69)
+	at ?.Then Our purpos page should open(HSBCWeb1.feature:12)
+
